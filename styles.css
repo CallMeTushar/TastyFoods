@@ -1,0 +1,186 @@
+
+#title{
+  background-color:  #fe91ca;
+  color: #c060a1;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3{
+  color: #fe346e;
+}
+
+.title-row{
+  position: relative;
+}
+
+.navbar{
+  padding:0 0 2rem;
+}
+
+
+.navbar-brand{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #184d47;
+}
+
+.nav-item{
+  padding:0 28px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: #436f8a;
+}
+
+.container-fluid{
+  padding: 3% 15% 12%;
+}
+
+.heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.headingTop{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 50px;
+}
+
+.title-img{
+  width: 60%;
+  position: absolute;
+  left :30%;
+  margin-top: 10px;
+}
+
+@media (max-width:1024px) {
+
+#title{
+  text-align: center;
+}
+
+.title-img{
+  position:static;
+  margin-top: 1.2rem;
+}
+
+.feature-element{
+  margin: 2rem;
+}
+
+}
+
+
+#features{
+  text-align: center;
+  padding: 10%;
+  background-color: #f5fcc1;
+}
+
+.feature-icons{
+  margin-bottom: 1rem;
+  color: #d7385e;
+}
+
+.feature-icons:hover{
+  color: #fe91ca;
+}
+
+
+.feature-element p{
+    color: #8f8f8f;
+}
+
+#testimonials{
+  color: #fff;
+  background-color:  #fe91ca;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-item{
+  padding: 7%;
+}
+
+
+.test-img{
+  width: 20%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+
+#pricing{
+  padding: 60px 100px;
+  text-align: center;
+  background-color: #f8615a;
+}
+
+#pricing h1{
+  margin: 2rem;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #111d5e;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.card{
+  background-color: #ede682;
+}
+
+.card-body {
+  font-size: 1.2rem;
+}
+
+.card h3{
+  font-family: 'Galada', cursive;
+}
+
+#cta{
+  background-color: #fe91ca;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+#cta p{
+  font-size: 1.25rem;
+  margin: 1.25rem;
+  color: black;
+}
+
+.bottom-container{
+  text-align: center;
+  padding:5%;
+  background-color: #f5fcc1;
+}
+
+.bottom-container a{
+  padding: 20px;
+}
+
+.bottom-container p{
+  color: #8f8f8f;
+}
